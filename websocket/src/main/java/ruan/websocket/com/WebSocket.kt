@@ -13,9 +13,9 @@ import java.nio.ByteBuffer
 class WebSocket {
 
     var url : String ?= null
-    var webSocketListener : WebSocketListener ?= null
+    var webSocketListener : WebSocketListener?= null
 
-    var webSocketUtils : WebSocketUtils ?= null
+    var webSocketUtils : WebSocketUtils?= null
 
 
     constructor(url : String ? , webSocketListener: WebSocketListener?) : super(){
@@ -28,7 +28,7 @@ class WebSocket {
      * 初始化websocket 连接websocket
      */
     fun connect(){
-        webSocketUtils = WebSocketUtils(URI(url) , Draft_17() , webSocketListener)
+        webSocketUtils = WebSocketUtils(URI(url), Draft_17(), webSocketListener)
         //连接数据库
         (webSocketUtils as WebSocketUtils).connectBlocking()
     }

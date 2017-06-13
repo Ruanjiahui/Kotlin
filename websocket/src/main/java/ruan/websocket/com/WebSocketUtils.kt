@@ -12,7 +12,7 @@ import java.net.URI
 /**
  * Created by 19820 on 2017/6/13.
  */
-class WebSocketUtils (serverUri: URI , draft: Draft, webSocketListener: WebSocketListener?) : WebSocketClient(serverUri , draft) {
+class WebSocketUtils (serverUri: URI, draft: Draft, webSocketListener: WebSocketListener?) : WebSocketClient(serverUri , draft) {
 
     /**
      * 打印的标识

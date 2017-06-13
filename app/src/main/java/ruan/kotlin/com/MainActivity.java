@@ -1,11 +1,14 @@
-package ruan.websocket.com;
+package ruan.kotlin.com;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import org.jetbrains.annotations.Nullable;
 
-public class MainActivity extends AppCompatActivity implements WebSocketListener{
+import ruan.websocket.com.WebSocket;
+import ruan.websocket.com.WebSocketListener;
+
+public class MainActivity extends AppCompatActivity implements WebSocketListener {
 
     private WebSocket webSocket;
 

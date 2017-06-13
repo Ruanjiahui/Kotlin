@@ -1,4 +1,4 @@
-package ruan.websocket.com;
+package ruan.kotlin.com;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ruan.websocket.com", appContext.getPackageName());
+        assertEquals("ruan.websocket.com.test", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package ruan.websocket.com;
+package ruan.kotlin.com;
 
 import org.junit.Test;
 
