@@ -81,28 +81,28 @@ java
  
  java
       
-      websocket.send("发送数据");
+       websocket.send("发送数据");
 
 这个是发送消息到服务器
 也可以发送二进制
       
-      websocket.sendPing()
+       websocket.sendPing()
 
 这里是发送ping心跳  ， 在onPong接口可以 接收到服务器返回的pong心跳
 
 
-      websocket.close()
+       websocket.close()
 
 关闭连接一定要调用该接口
  
  
  Kotlin
       
-      websocket.send(“发送数据”)
+       websocket.send(“发送数据”)
       
-      websocket.sendPing()
+       websocket.sendPing()
  
-      websocket.close()
+       websocket.close()
  
  
  
