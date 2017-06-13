@@ -76,6 +76,38 @@ java
         
         
  只需要两句话就可以实现websocket的通讯
+ 接下来就是进行 发送数据
+ 
+ 
+ java
+      
+      websocket.send("发送数据");
+
+这个是发送消息到服务器
+也可以发送二进制
+      
+      websocket.sendPing()
+
+这里是发送ping心跳  ， 在onPong接口可以 接收到服务器返回的pong心跳
+
+
+      websocket.close()
+
+关闭连接一定要调用该接口
+ 
+ 
+ Kotlin
+      
+      websocket.send(“发送数据”)
+      
+      websocket.sendPing()
+ 
+      websocket.close()
+ 
+ 
  
  
  调用方式后续补上
+ 
+ 
+ 
