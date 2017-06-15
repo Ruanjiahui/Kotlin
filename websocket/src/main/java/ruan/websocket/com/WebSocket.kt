@@ -10,12 +10,18 @@ import java.nio.ByteBuffer
  * 外部调用websocket的 类
  * Created by 19820 on 2017/6/13.
  */
-class WebSocket {
+class WebSocket{
 
     var url : String ?= null
     var webSocketListener : WebSocketListener?= null
 
     var webSocketUtils : WebSocketUtils?= null
+
+    init {
+        this.url = url
+        this.webSocketListener = webSocketListener
+    }
+
 
 
     constructor(url : String ? , webSocketListener: WebSocketListener?) : super(){

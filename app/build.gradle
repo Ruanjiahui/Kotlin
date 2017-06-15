@@ -27,5 +27,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
-    compile project(':websocket')
+    //compile project(':websocket')
+    compile 'ruan.websocket.com:websocket:1.0'
 }
