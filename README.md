@@ -107,7 +107,8 @@ java
  
  
  
- 调用方式后续补上
+ 调用方式
  
- 
- compile 'ruan.websocket.com:websocket:1.0'
+      compile 'ruan.websocket.com:websocket:1.0'
+      
+ 在 gradle里面添加这句话就可以使用
